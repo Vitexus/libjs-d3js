@@ -1,0 +1,20 @@
+d3js for Debian
+-----------------
+
+If you wish to include d3js in your HTML files which are served
+via a webserver you should add the following lines to your <HEAD>
+section:
+
+        <script language="javascript" type="text/javascript"
+        src="/javascript/d3js/d3js.js"></script>
+
+If you're generating files which are going to be served via the
+filesystem (such that no HTTP server is used) instead you should
+access d3js via the filesystem path :
+
+        <script language="javascript" type="text/javascript"
+        src="/usr/share/javascript/d3js/d3js.js"></script>
+
+ -- Vítězslav Vitex Dvořák <ifoc@vitexsoftware.cz>  Sat, 30 May 2015 13:43:25 +0200
+
+
