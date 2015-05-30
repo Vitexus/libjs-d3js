@@ -1,2 +1,5 @@
-/usr/share/javascript/d3js/d3js.min.js	/usr/share/javascript/d3js/d3js.pack.js
-/usr/share/javascript/d3js/d3js.min.js	/usr/share/javascript/d3js/d3js.lite.js
+/usr/share/javascript/d3js/d3.min.js	/usr/share/javascript/d3js/d3.pack.js
+/usr/share/javascript/d3js/d3.min.js	/usr/share/javascript/d3js/d3.lite.js
+/usr/share/javascript/d3js/d3.min.js	/usr/share/javascript/d3.min.js
+/usr/share/javascript/d3js/d3.js	/usr/share/javascript/d3.js
+
