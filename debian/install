@@ -1,2 +1,2 @@
-d3/d3*.js		/usr/share/javascript/d3js
+node_modules/d3/build/d3*.js		/usr/share/javascript/d3js
 version.txt		/usr/share/javascript/d3js

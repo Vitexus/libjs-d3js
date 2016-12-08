@@ -1,6 +1,12 @@
-libjs-d3js (3.5.5-1) UNRELEASED; urgency=medium
+libjs-d3js (4.4.0-1) UNRELEASED; urgency=medium
 
   [ Vítězslav Vitex Dvořák ]
   * Debianized 3.5.5
 
- -- vitex <vitex@linuxadmin.austro-bohemia.local>  Sat, 30 May 2015 14:00:11 +0200
+  [ vitex ]
+  * Debianized 4.4.0
+  * Debianized 4.4.0
+  * Debianized 4.4.0
+  * Debianized 4.4.0
+
+ -- vitex <vitex@kickass.vitexsoftware.cz>  Thu, 08 Dec 2016 16:34:34 +0100
