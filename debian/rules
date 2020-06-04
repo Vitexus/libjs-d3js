@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
+
+
 BUILD_DIR:=dist
 
 %:
@@ -7,15 +9,16 @@ build:
 	dh $@
 
 override_dh_auto_build:
+	mkdir build
+	npm install --prefix ./build  d3
+	dch -v `cat build/node_modules/d3/dist/package.js | grep "version =" | sed 's/[^0-9\.]*//g'` `git log -1 --pretty=%B | head -n 1`
 	dh_auto_build
 
 override_dh_auto_clean:
-	rm -rf dist/
 	dh_clean
 
 override_dh_clean:
-	rm -rf dist/
-	-rm build/.sizecache.json
+	rm -rf build
 	dh_clean
 
 .PHONY: build

@@ -1,4 +1,4 @@
-libjs-d3js (4.4.0-1) UNRELEASED; urgency=medium
+libjs-d3js (5.16.0) UNRELEASED; urgency=medium
 
   [ Vítězslav Vitex Dvořák ]
   * Debianized 3.5.5
@@ -8,5 +8,12 @@ libjs-d3js (4.4.0-1) UNRELEASED; urgency=medium
   * Debianized 4.4.0
   * Debianized 4.4.0
   * Debianized 4.4.0
+  * Debianized 4.9.1
 
- -- vitex <vitex@kickass.vitexsoftware.cz>  Thu, 08 Dec 2016 16:34:34 +0100
+  [ CyberVitexus ]
+  * 
+  * Now we get libs by node install
+  * Now we get libs by node install
+  * Now we get libs by node install
+
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Thu, 04 Jun 2020 21:22:37 +0200

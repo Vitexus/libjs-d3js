@@ -1,5 +1,5 @@
 #!/bin/bash
-npm install d3
+npm install --prefix ./debian/tmp  d3 
 
 VERSION=`cat node_modules/d3/build/package.js | grep "export var version" | cut -d'"' -f 2`
 BUILD=`cat  ./build | perl -ne 'chomp; print join(".", splice(@{[split/\./,$_]}, 0, -1), map {++$_} pop @{[split/\./,$_]}), "\n";'`

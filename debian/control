@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.4
+Standards-Version: 4.3.0
 Homepage: http://d3js.org/
 Vcs-Browser: https://github.com/mbostock/d3
 Vcs-Git: git@github.com:mbostock/d3.git
